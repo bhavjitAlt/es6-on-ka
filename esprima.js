@@ -5029,6 +5029,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        error.index = index;
 	        error.lineNumber = line;
 	        error.description = description;
+		console.error(error);
 	        return error;
 	    };
 	    ErrorHandler.prototype.throwError = function (index, line, col, description) {
